@@ -1,16 +1,13 @@
 #madlibs game
 
-print(f"Today I went to a (1.adjective1) Park.")
-print(f"In the Park I saw a (2.noun1).")
-print(f"(3.noun1) was (4.adjective2) and (5.verb1).")
-print(f"I was (6.adjective3).")
 
-adjective1= input("Fill 1:")
-noun1=input("Fill 2 & 3:")
 
-adjective2=input("Fill 4:")
-verb1=input("Fill 5:")
-adjective3=input("Fill 6:")
+adjective1= input("Adjective: ")
+noun1=input("Noun: ")
+
+adjective2=input("Adjective 2: ")
+verb1=input("Verb: ")
+adjective3=input("Adjective 3: ")
 
 
 print(f"Today I went to a {adjective1} Park.")
