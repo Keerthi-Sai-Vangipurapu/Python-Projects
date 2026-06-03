@@ -3,10 +3,10 @@
 weight=float(input("Enter your Weight: "))
 unit=input("Kilograms or Pounds ?(K or L):")
 
-if(unit=="K"):
+if(unit=="K" or unit=="k"):
     weight*=2.204
     unit="Lbs."
-elif(unit=="L"):
+elif(unit=="L" or unit=="l"):
     weight/=2.204
     unit="Kgm"
 else:
